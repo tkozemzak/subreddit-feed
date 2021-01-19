@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, {useState, useEffect} from 'react';
 import Article from './components/Article';
@@ -19,6 +18,7 @@ function App() {
         if (data != null) {
           console.log("data.data.children", data.data.children);
           setArticles(data.data.children);
+          console.log("articles:", articles);
         }
       })
     })
@@ -27,11 +27,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <input type="text" className ="input" value={subreddit} onChange={e => setArticles(e.target.value)}/>
+        <input type="text" className ="input" value={subreddit} onChange={e => setSubreddit(e.target.value)}/>
         </header>
         <div className="articles">
           {
-            (articles != null) ? articles.map((article, index) => <Article key={index} article={article.data} />) : ''
+            (articles != []) ? articles.map((article, index) => <Article key={index} article={article.data} />) : ''
           }
         </div>
       
