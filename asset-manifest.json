@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/subreddit-feed/static/css/main.c6714466.chunk.css",
+    "main.js": "/subreddit-feed/static/js/main.a525691c.chunk.js",
+    "main.js.map": "/subreddit-feed/static/js/main.a525691c.chunk.js.map",
+    "runtime-main.js": "/subreddit-feed/static/js/runtime-main.840c0cab.js",
+    "runtime-main.js.map": "/subreddit-feed/static/js/runtime-main.840c0cab.js.map",
+    "static/js/2.23211c49.chunk.js": "/subreddit-feed/static/js/2.23211c49.chunk.js",
+    "static/js/2.23211c49.chunk.js.map": "/subreddit-feed/static/js/2.23211c49.chunk.js.map",
+    "static/js/3.95666179.chunk.js": "/subreddit-feed/static/js/3.95666179.chunk.js",
+    "static/js/3.95666179.chunk.js.map": "/subreddit-feed/static/js/3.95666179.chunk.js.map",
+    "index.html": "/subreddit-feed/index.html",
+    "static/css/main.c6714466.chunk.css.map": "/subreddit-feed/static/css/main.c6714466.chunk.css.map",
+    "static/js/2.23211c49.chunk.js.LICENSE.txt": "/subreddit-feed/static/js/2.23211c49.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.840c0cab.js",
+    "static/js/2.23211c49.chunk.js",
+    "static/css/main.c6714466.chunk.css",
+    "static/js/main.a525691c.chunk.js"
+  ]
+}
